@@ -17,7 +17,7 @@
         <encoding>UTF-8</encoding>
         <scala.version>2.12.3</scala.version>
         <scala.compat.version>2.12</scala.compat.version>
-        <gatling.version>3.4.0</gatling.version>
+        <gatling.version>3.3.1</gatling.version>
         <gatling-plugin.version>3.1.0</gatling-plugin.version>
         <gatling.simulations.package>es.menasoft.gatling.simulations</gatling.simulations.package>
         <gatling.simulation.name>FirstSimulation</gatling.simulation.name>
@@ -33,6 +33,12 @@
             <groupId>io.gatling.highcharts</groupId>
             <artifactId>gatling-charts-highcharts</artifactId>
             <version>${gatling.version}</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.github.mnogu</groupId>
+            <artifactId>gatling-kafka_2.12</artifactId>
+            <version>0.3.1</version>
             <scope>test</scope>
         </dependency>
     </dependencies>
